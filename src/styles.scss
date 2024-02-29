@@ -1,1 +1,151 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0;
+     font-family: Roboto, "Helvetica Neue", sans-serif; 
+     background-color: rgb(49 44 44);
+    color: antiquewhite;}
+
+//flex
+.flex{
+    display: flex;
+}
+.flex-1 {
+    flex: 1
+}
+
+.column {
+    flex-direction: column;
+}
+
+//height
+.full-height {
+    height: 100%;
+}
+
+.half-height {
+height: 50%;
+}
+
+//width
+.half-width{
+    width: 50%;
+}
+.full-width {
+    width: 100%;
+}
+
+//align
+//center
+.center-center {
+    justify-content: center;
+    align-items: center;
+}
+
+//spacebetween
+.spacebetween-center {
+    justify-content: space-between;
+    align-items: center;
+}
+//spacearound
+.spacearound-center {
+    justify-content: space-around;
+    align-items: center;
+}
+//end
+.end-center {
+    justify-content: flex-end;
+    align-items: center;
+}
+//strech
+.spacebetween-strech  {
+    justify-content: space-between;
+}
+//font
+.text-center {
+    text-align: center;
+}
+
+//padding
+.p-1em {
+    padding: 1em;
+}
+.p-1-5em{
+    padding:1.5em ;
+}
+//Margin
+.no-margin {
+    margin: 0;
+}
+.m-b-1em {
+    margin-bottom: 1em;
+}
+
+.m-b-2em {
+    margin-bottom: 2em;
+}
+.m-t-2em{
+    margin-top: 2em;
+}
+
+.m-r-1em{
+    margin-right: 1em 
+}
+.main-container{
+    position: relative;
+    gap: 1em;
+}
+
+//gap
+.g-1em{
+    gap: 1em;
+}
+//toolbar
+.mat-toolbar {
+    background:  rgb(49 44 44);
+    color: antiquewhite;
+}
+//button
+.mat-mdc-raised-button.mat-primary {
+    --mdc-protected-button-container-color: teal;
+    --mdc-protected-button-label-text-color: #fff;
+}
+
+//color
+.color-t{
+    color: teal;
+}
+
+//form background
+.mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: rgb(49 44 44)
+}
+//form color
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label {
+   color: whitesmoke;
+}
+
+//dropdown
+.mat-expansion-panel {
+     background:  rgb(49 44 44); 
+    color:antiquewhite;;
+    width: 150px;
+}
+.mat-expansion-panel-header-title {
+    color:antiquewhite;
+}
+.mat-expansion-panel-header-description, .mat-expansion-indicator::after {
+    color:antiquewhite;
+}
+
+.mat-mdc-card {
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    --mdc-elevated-card-container-color: rgb(49 44 44);
+    border: solid 2px;
+    border-color: antiquewhite;
+}
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__input {
+    color: antiquewhite;
+}
+
+

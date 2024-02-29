@@ -1,0 +1,17 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  button.test-btn{
+    padding: 15px;
+    display: block;
+    margin: 50px auto;
+    
+    transition: .2s ease-in-out 0s;
+    }
+    button.test-btn:hover{
+       cursor: pointer;
+       transform: scale(1.25);
+        font-size: medium;
+       color:antiquewhite;;
+       }
+  

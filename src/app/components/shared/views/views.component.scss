@@ -1,0 +1,18 @@
+#example1 {
+    color: rgb(49 44 44);
+    font-size: 60px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:whitesmoke;
+    opacity: 0.6;
+    
+}
+
+.position{
+    position: relative;
+  }
+.top {
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    font-size: 30px; 
+}

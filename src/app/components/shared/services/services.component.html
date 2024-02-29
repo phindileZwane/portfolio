@@ -1,0 +1,92 @@
+<div class="full-width flex">
+
+    <mat-card class="card half-width">
+        <h1 id="example1">
+            Services
+        </h1>
+        <h3 class="top">My Services</h3>
+        <div class="flex g-1em wrap">
+            <mat-card class=" flex g-1em small-card center-center" *ngFor="let card of miniCards">
+                <div class="flex column center-center">
+                    <mat-icon>{{card.icon}}</mat-icon>
+                    <h5>{{card.label}}</h5>
+                    <p> <small>{{card.description}}</small> </p>
+                </div>
+
+            </mat-card>
+        </div>
+    </mat-card>
+
+
+
+    <mat-card class="  half-width card">
+        <h1 id="example1">
+            Skills
+        </h1>
+        <h3 class="top">My Skills</h3>
+
+        <!-- Skills -->
+        <div>
+            <circle-progress
+            [percent]="50"
+            [radius]="100"
+            title="JavaScript"
+            [outerStrokeWidth]="6"
+            [innerStrokeWidth]="3"
+            [outerStrokeColor]="'#faebd7'"
+            [innerStrokeColor]="'#008080'"
+            [animation]="true"
+            [animationDuration]="300"
+          ></circle-progress>
+
+          <circle-progress
+            [percent]="70"
+            [radius]="100"
+            title="HTML"
+            [outerStrokeWidth]="6"
+            [innerStrokeWidth]="3" 
+            [outerStrokeColor]="'#faebd7'"
+            [innerStrokeColor]="'#008080'"
+            [animation]="true"
+            [animationDuration]="300"
+           
+          ></circle-progress>
+          <circle-progress
+          [percent]="70"
+          [radius]="100"
+          title="CSS"
+          [outerStrokeWidth]="6"
+          [innerStrokeWidth]="3"
+          [outerStrokeColor]="'#faebd7'"
+          [innerStrokeColor]="'#008080'"
+          [animation]="true"
+          [animationDuration]="300"
+        ></circle-progress>
+        <circle-progress
+        [percent]="50"
+        [radius]="100"
+        title="Angular"
+        [outerStrokeWidth]="6"
+        [innerStrokeWidth]="3"
+        [outerStrokeColor]="'#faebd7'"
+        [innerStrokeColor]="'#008080'"
+        [animation]="true"
+        [animationDuration]="300"
+      ></circle-progress>
+      <circle-progress
+      [percent]="45"
+      [radius]="100"
+      title="Express"
+      
+      [outerStrokeWidth]="6"
+      [innerStrokeWidth]="3"
+      [outerStrokeColor]="'#faebd7'"
+      [innerStrokeColor]="'#008080'"
+      [animation]="true"
+      [animationDuration]="300"
+    ></circle-progress>
+        </div>
+    </mat-card>
+
+
+</div>

@@ -1,0 +1,29 @@
+#example1 {
+    color: rgb(49 44 44);
+    font-size: 60px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:whitesmoke;
+    opacity: 0.6;
+    position: relative;
+}
+
+.top {
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    font-size: 30px; 
+}
+.card{
+    background-color:rgb(49 44 44) ;
+}
+.small-card{
+    background-color:#958686;
+    color:rgb(49 44 44);
+    width: 40%;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.mat-icon {
+    color: teal;
+}

@@ -1,0 +1,36 @@
+<div>
+	<div class="flex position">
+		<h1 id="example1">
+			Projects
+		</h1>
+		<h3 class="top">My Projects</h3>
+	</div>
+	
+
+	<!-- body -->
+	<div class="tp-wrapper">
+		<div class="tp-box" (click)="toggleFlip()" [@flipState]="flip">
+			<div class="tp-box__side tp-box__front">WeatherApp
+			</div>
+			<div class="tp-box__side tp-box__back">
+				<a href="https://github.com/phindileZwane/MyWeatherApp.git"> <div type="button">Link</div></a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="tp-wrapper">
+		<div class="tp-box" (click)="toggleFlip()" [@flipState]="flip">
+			<div class="tp-box__side tp-box__front">SchoolManApp
+			</div>
+			<div class="tp-box__side tp-box__back">
+				<a href="https://github.com/phindileZwane/student-management.git"> <div type="button">Link</div></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+

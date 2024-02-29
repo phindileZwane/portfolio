@@ -1,0 +1,22 @@
+
+<div class="full-height">
+  <div class="toolbar m-b-2em ">
+    <app-tool-bar [menuItems]="menuItems" (click)="scrollTo" class="m-b-2em "></app-tool-bar>
+  </div>
+  
+  <div>
+    <app-home ></app-home>
+    <app-about></app-about>
+    <app-services></app-services>
+    <app-project></app-project>
+    <app-contact></app-contact>
+    <app-views></app-views>
+  </div>
+  <div class="" *ngIf="!showDuplicate">
+    <!-- routing the components information -->
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+  
+  
